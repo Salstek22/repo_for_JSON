@@ -1,4 +1,9 @@
 {
+  "get": [
+    {
+      "id": 1,
+      "title": [
+      {
   "organizationId": "org-1",
   "organizationName": "ООО 'Рога и Копыта'",
   "generalManager": {
@@ -99,4 +104,10 @@
       ]
     }
   ]
+}]
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
