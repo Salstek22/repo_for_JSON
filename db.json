@@ -1,0 +1,102 @@
+{
+  "organizationId": "org-1",
+  "organizationName": "ООО 'Рога и Копыта'",
+  "generalManager": {
+    "id": "gm-1",
+    "name": "Генеральный директор"
+  },
+  "branches": [
+    {
+      "id": "branch-1",
+      "name": "Филиал А",
+      "managerPosition": {
+        "id": "pos-19",
+        "name": "Директор филиала"
+      },
+      "departments": [
+        {
+          "id": "dept-1",
+          "name": "Отдел продаж",
+          "managerPosition": {
+            "id": "pos-1",
+            "name": "Менеджер по продажам"
+          },
+          "positions": [
+            {"id": "pos-2", "name": "Старший менеджер по продажам"},
+            {"id": "pos-3", "name": "Ассистент менеджера по продажам"}
+          ]
+        },
+        {
+          "id": "dept-2",
+          "name": "Отдел маркетинга",
+          "managerPosition": {
+            "id": "pos-4",
+            "name": "Маркетолог"
+          },
+          "positions": [
+            {"id": "pos-5", "name": "Старший маркетолог"},
+            {"id": "pos-6", "name": "Ассистент маркетолога"}
+          ]
+        },
+        {
+          "id": "dept-3",
+          "name": "Отдел разработки",
+          "managerPosition": {
+            "id": "pos-7",
+            "name": "Разработчик"
+          },
+          "positions": [
+            {"id": "pos-8", "name": "Старший разработчик"},
+            {"id": "pos-9", "name": "Ассистент разработчика"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "branch-2",
+      "name": "Филиал Б",
+      "managerPosition": {
+        "id": "pos-20",
+        "name": "Директор филиала"
+      },
+      "departments": [
+        {
+          "id": "dept-4",
+          "name": "Отдел логистики",
+          "managerPosition": {
+            "id": "pos-10",
+            "name": "Логист"
+          },
+          "positions": [
+            {"id": "pos-11", "name": "Старший логист"},
+            {"id": "pos-12", "name": "Ассистент логиста"}
+          ]
+        },
+        {
+          "id": "dept-5",
+          "name": "Отдел кадров",
+          "managerPosition": {
+            "id": "pos-13",
+            "name": "HR-менеджер"
+          },
+          "positions": [
+            {"id": "pos-14", "name": "Старший HR-менеджер"},
+            {"id": "pos-15", "name": "Ассистент HR-менеджера"}
+          ]
+        },
+        {
+          "id": "dept-6",
+          "name": "Отдел IT",
+          "managerPosition": {
+            "id": "pos-16",
+            "name": "Системный администратор"
+          },
+          "positions": [
+            {"id": "pos-17", "name": "Старший системный администратор"},
+            {"id": "pos-18", "name": "Ассистент системного администратора"}
+          ]
+        }
+      ]
+    }
+  ]
+}
